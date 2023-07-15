@@ -1,59 +1,203 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vuelta al Mundo</title>
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/Index.css">
 </head>
 <body>
-  <header>
-    <h1>Estados Unidos</h1>
+  <header class="main-header">
+    <div class="container container--flex">
+      <div class="main-header__container">
+        <h1 class="main-header__title">Una Vuelta al Mundo</h1>
+        <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+        <nav class="main-nav" id="main-nav">
+          <ul class="menu">
+            <li class="menu__item"><a href="Index.html" class="menu__link">HOME</a></li>
+            <li class="menu__item"><a href="#explora" class="menu__link">EXPLORA</a></li>
+            <li class="menu__item"><a href="#descubre" class="menu__link">DESCUBRE</a></li>
+            <li class="menu__item"><a href="#aventurate" class="menu__link">AVENTURATE</a></li>
+            <li class="menu__item"><a href="#footer" class="menu__link">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-header__container">
+        <span class="main-header__txt">Kinal</span>
+        <p class="main-header__txt"><i class="fas fa-phone"></i> Telefono 0000-0000</p>
+      </div>
+      <div class="main-header__container">
+        <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+        <a href="Index.html" class="main-header__btn">Explora<i class="fas fa-shopping-cart"></i></a>
+        
+      </div>
+    </div>
   </header>
   
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-    </ul>
-  </nav>
-  
-  <section>
-    <h2>Hablemos de Estados unidos</h2>
-    <p>Es un país soberano constituido en una república federal constitucional compuesta por cincuenta estados y un 
-        distrito federal. Su capital es Washington D. C. y su ciudad más poblada es Nueva York. La mayor parte del país 
-        se ubica en el medio de América del Norte ―donde se encuentran sus 48 estados contiguos y Washington D. C.―, entre 
-        los océanos Pacífico y Atlántico. Limita con Canadá al norte y con México al sur. El estado de Alaska está en el 
-        noroeste del continente, limita con Canadá al este, separado de Rusia al oeste por el estrecho de Bering. 
-        El estado de Hawái es un archipiélago polinesio ubicado en Oceanía, en medio del océano Pacífico y es el único de 
-        sus estados que no se encuentra en América.</p>
-    <img src="" alt="Imagen 1"  width="600" height="450">
-  </section>
-  
-  <section>
-    <h2>Lugares mas visitados</h2>
-    <p>Estados Unidos se ha inspirado en su territorio, su naturaleza y sus ciudades mucho más que cualquier otra 
-        literatura nacional. Sin duda no es así solo porque el país haya querido formarse una identidad, sino también 
-        porque sus paisajes, de una belleza y grandeza únicas, son toda una fuente de inspiración.</p>
-    <p>Entre sus lugares mas visitados estan:
-        Los lugares a los que tienes que ir son la Estatua de la Libertad, el Times Square, el Empire State, 
-        el Rockefeller Center y el Central Park. A esta lista se sumaron recientemente las majestuosas cataratas 
-        artificiales sobre el río East.
-    </p>
-    <img src="" alt="Imagen 2"  width="600" height="450">
-  </section>
 
-  <section>
-    <h2>Calidad de vida y costos</h2>
-    <p>Calidad de vida: Vivir en Estados Unidos tiene muchas cosas buenas. Estados Unidos tiene una economía fuerte y 
-        muchas oportunidades de trabajo. También es un país con una excelente sanidad y educación. Además, hay mucha 
-        diversidad en Estados Unidos, lo que permite a la gente experimentar diferentes culturas y estilos de vida.</p>
-    <p>Costos: Una persona soltera necesita ganar en 2023, en promedio, después del descuento por impuestos, US$ 68,499 
-        al año para vivir cómodamente en las 25 áreas metropolitanas</p>
-    <img src="" alt="Imagen 3"  width="600" height="450">
-  </section>
-  
-  <footer>
-    <p>Jonathan Domingo 2022-206 IN5BV</p>
+  <div class="container-slider" id="explora">
+    <div class="slider" id="slider">
+      <div class="slider__section">
+        <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-turismo-francia-turistas_1284-17196.jpg?w=2000" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">
+            Francia</h2>
+          <p class="slider__txt">
+            Descubre la grandeza de Francia,</p>
+          <p class="slider__txt">
+            viaja a la cuna de la elegancia.</p>
+          <a href="Francia.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-espana-ilustracion_1284-8946.jpg?w=2000" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">España</h2>
+          <p class="slider__txt">
+            Siente la pasión española,</p>
+          <p class="slider__txt">
+            un viaje que despertara tus sentidos.</p>
+          <a href="Espana.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+    
+      <div class="slider__section">
+        <img src="https://static.vecteezy.com/system/resources/previews/000/484/292/original/usa-isometric-map-vector.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Estados Unidos</h2>
+          <p class="slider__txt">
+            Sumérgete en la aventura americana,</p>
+          <p class="slider__txt">
+            desde las luces de la ciudad hasta la naturaleza.</p>
+          <a href="Usa.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+
+      <div class="slider__section">
+        <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-turismo-italia-turistas_1284-17195.jpg?w=2000" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Italia</h2>
+          <p class="slider__txt">
+            Vive la dolce vita en Italia,</p>
+          <p class="slider__txt">
+            moda, gastronomía y encanto un país que lo tiene               todo.</p>
+          <a href="Italia.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+    <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+  </div>
+
+
+
+  <main class="main">
+    <div class="container">
+      
+      <section class="container__testimonials" id="descubre">
+        <h2 class="section__title">Estados Unidos</h2>
+        <h3 class="testimonial__title">¿Listo para la aventura?</h3>
+        <p class="testimonial__txt">Es un país soberano constituido en una república federal constitucional compuesta por cincuenta estados y un 
+    distrito federal. Su capital es Washington D. C. y su ciudad más poblada es Nueva York. La mayor parte del país 
+    se ubica en el medio de América del Norte ―donde se encuentran sus 48 estados contiguos y Washington D. C.―, entre 
+    los océanos Pacífico y Atlántico. Limita con Canadá al norte y con México al sur. El estado de Alaska está en el 
+    noroeste del continente, limita con Canadá al este, separado de Rusia al oeste por el estrecho de Bering. 
+    El estado de Hawái es un archipiélago polinesio ubicado en Oceanía, en medio del océano Pacífico y es el único de 
+    sus estados que no se encuentra en América.</p>
+        
+        <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>
+        <div class="editor__item">
+          <img src="https://static.vecteezy.com/system/resources/previews/000/484/292/original/usa-isometric-map-vector.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>           
+      </div>
+        
+        <p class="testimonial__txt">Estados Unidos se ha inspirado en su territorio, su naturaleza y sus ciudades mucho más que cualquier otra 
+    literatura nacional. Sin duda no es así solo porque el país haya querido formarse una identidad, sino también 
+    porque sus paisajes, de una belleza y grandeza únicas, son toda una fuente de inspiración.
+</p>
+        
+        <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://tipsparatuviaje.com/wp-content/uploads/2018/08/las-vegas-usa.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>
+        <div class="editor__item">
+          <img src="https://cdn.inteligenciaviajera.com/wp-content/uploads/2020/03/Lugares-tur%C3%ADsticos.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>           
+      </div>
+        
+        
+        <p class="testimonial__txt">Estados Unidos tiene muchas cosas buenas. Estados Unidos tiene una economía fuerte y 
+    muchas oportunidades de trabajo. También es un país con una excelente sanidad y educación. Además, hay mucha 
+    diversidad en Estados Unidos, lo que permite a la gente experimentar diferentes culturas y estilos de vida. Una persona soltera necesita ganar en 2023, en promedio, después del descuento por impuestos, US$ 68,499 
+    al año para vivir cómodamente en las 25 áreas metropolitanas.
+</p>
+        
+        <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://static.reuters.com/resources/r/?m=02&d=20140703&t=2&i=916693454&r=LYNXMPEA62002&w=800" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>
+        <div class="editor__item">
+          <img src="https://viesantore.com/wp-content/uploads/2020/12/Relacion-salud-y-calidad-de-vida.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>           
+      </div>
+        
+      </section>
+              
+      
+      
+      
+      
+      
+      <section class="container-tips" id="aventurate">
+      <div class="tip">
+        <i class="far fa-hand-paper"></i> 
+        <h2 class="tip__title">Avianca</h2>
+        <p class="tip__txt">Reconocida agencia de vuelos, cotiza precios y programa tu viaje</p>
+        <a href="https://www.avianca.com/es/?poscode=GT&gad=1&gclid=EAIaIQobChMItJzo24KQgAMV0qRaBR0Mxw5uEAAYASAAEgKBkvD_BwE" class="btn-shop">VUELA AHORA</a>
+      </div>
+      <div class="tip">
+       <i class="fas fa-rocket"></i>
+        <h2 class="tip__title">Google Maps</h2>
+        <p class="tip__txt">Busca aqui cada ricón del mundo.</p>
+        <a href="https://www.google.com/maps/place/United+States/@35.6949222,-116.9682003,4z/data=!3m1!4b1!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891!16zL20vMDljN3cw?entry=ttu" class="btn-shop">EXPLORA AHORA</a>
+      </div>
+      <div class="tip">
+        <i class="fas fa-cog"></i>
+        <h2 class="tip__title">Trivago</h2>
+        <p class="tip__txt">Cotiza y compara precios de miles de paginas de reservacion de hotel, reserva tu hospedaje al mejor precio.</p>
+        <a href="https://www.trivago.com/es-US?rl=es-US" class="btn-shop">HOSPEDAJE AHORA</a>
+      </div>
+    </section>
+    </div>
+  </main>
+
+
+  <footer class="main-footer" id="footer">
+    <div class="footer__section">
+      <h2 class="footer__title">About Us</h2>
+      <p class="footer__txt">Estudiante de Quinto Perito en Informatica</p>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Location :</h2>
+      <p class="footer__txt">6A Avenida 13-54, Cdad. New York 01007</p>
+      <h2 class="footer__title">Contact</h2>
+      <p class="footer__txt">Phone : 0000-0000</p>
+      <p class="footer__txt">Email : email@mail.com</p>
+    </div>
+    
+    <p class="copy">© 2023 Una Vuelta al Mundo</p>
   </footer>
+
+  <script src="../js/Index.js"></script>
 </body>
 </html>

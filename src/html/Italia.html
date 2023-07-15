@@ -1,52 +1,195 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vuelta al Mundo</title>
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/Index.css">
 </head>
 <body>
-  <header>
-    <h1>Italia</h1>
+  <header class="main-header">
+    <div class="container container--flex">
+      <div class="main-header__container">
+        <h1 class="main-header__title">Una Vuelta al Mundo</h1>
+        <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+        <nav class="main-nav" id="main-nav">
+          <ul class="menu">
+            <li class="menu__item"><a href="Index.html" class="menu__link">HOME</a></li>
+            <li class="menu__item"><a href="#explora" class="menu__link">EXPLORA</a></li>
+            <li class="menu__item"><a href="#descubre" class="menu__link">DESCUBRE</a></li>
+            <li class="menu__item"><a href="#aventurate" class="menu__link">AVENTURATE</a></li>
+            <li class="menu__item"><a href="#footer" class="menu__link">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-header__container">
+        <span class="main-header__txt">Kinal</span>
+        <p class="main-header__txt"><i class="fas fa-phone"></i> Telefono 0000-0000</p>
+      </div>
+      <div class="main-header__container">
+        <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+        <a href="Index.html" class="main-header__btn">Explora<i class="fas fa-shopping-cart"></i></a>
+        
+      </div>
+    </div>
   </header>
-  
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-    </ul>
-  </nav>
-  
-  <section>
-    <h2>Hablemos de Italia</h2>
-    <p>Italia, oficialmente la República Italiana, es un país situado en Europa del Sur. Es conocido por su rica historia, su deliciosa cocina y su patrimonio artístico. Italia
-       es el hogar de algunas de las ciudades más famosas del mundo, como Roma, Florencia y Venecia. Además, cuenta con una gran cantidad de paisajes hermosos, como los Alpes
-       italianos y las hermosas costas mediterráneas.</p>
-    <img src="https://static.vecteezy.com/system/resources/previews/000/483/493/original/vector-italy-isometric-sightseeing-map-for-tourists.jpg" alt="Imagen 1"  width="600" height="450">
-  </section>
-  
-  <section>
-    <h2>Lugares más visitados</h2>
-    <p>Italia tiene una gran cantidad de lugares turísticos populares. Algunos de los destinos más visitados incluyen:</p>
-    <p>
-      - Roma: La capital de Italia, conocida por sus antiguas ruinas romanas, como el Coliseo y el Foro Romano.<br>
-      - Florencia: Una ciudad famosa por su impresionante arquitectura renacentista, como el Duomo y el Ponte Vecchio.<br>
-      - Venecia: Una ciudad construida sobre una serie de islas y famosa por sus canales y góndolas.<br>
-      - La Costa Amalfitana: Una hermosa costa con acantilados escarpados y encantadores pueblos costeros.<br>
-      - Milán: Una ciudad conocida por su moda y diseño, así como por su famosa catedral, el Duomo.<br>
-    </p>
-    <img src="https://www.shutterstock.com/image-photo/travel-italy-vintage-photo-album-600w-113500528.jpg" alt="Imagen 2"  width="600" height="450">
-  </section>
 
-  <section>
-    <h2>Calidad de vida y costos</h2>
-    <p>Calidad de vida: Italia tiene una alta calidad de vida, con un sistema de salud bien desarrollado, una buena educación y una rica cultura. El estilo de vida en Italia se caracteriza por su enfoque en la familia, la comida y el disfrute de la vida.</p>
-    <p>Costos: El costo de vida en Italia puede variar dependiendo de la ciudad y la región. Las principales ciudades como Roma y Milán pueden ser más caras en términos de alojamiento y comida, mientras que las áreas rurales tienden a ser más asequibles.</p>
-    <img src="https://img.freepik.com/vector-premium/infografia-familiar-conjunto-iconos-familia-exitosa_250613-8.jpg?w=2000" alt="Imagen 3"  width="600" height="450">
-  </section>
-  
-  <footer>
-    <p>Jonathan Domingo 2022-206 IN5BV</p>
+
+
+  <div class="container-slider" id="explora">
+    <div class="slider" id="slider">
+      <div class="slider__section">
+        <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-turismo-francia-turistas_1284-17196.jpg?w=2000" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">
+            Francia</h2>
+          <p class="slider__txt">
+            Descubre la grandeza de Francia,</p>
+          <p class="slider__txt">
+            viaja a la cuna de la elegancia.</p>
+          <a href="Francia.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-espana-ilustracion_1284-8946.jpg?w=2000" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">España</h2>
+          <p class="slider__txt">
+            Siente la pasión española,</p>
+          <p class="slider__txt">
+            un viaje que despertara tus sentidos.</p>
+          <a href="Espana.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+    
+      <div class="slider__section">
+        <img src="https://static.vecteezy.com/system/resources/previews/000/484/292/original/usa-isometric-map-vector.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Estados Unidos</h2>
+          <p class="slider__txt">
+            Sumérgete en la aventura americana,</p>
+          <p class="slider__txt">
+            desde las luces de la ciudad hasta la naturaleza.</p>
+          <a href="Usa.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+
+      <div class="slider__section">
+        <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-turismo-italia-turistas_1284-17195.jpg?w=2000" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Italia</h2>
+          <p class="slider__txt">
+            Vive la dolce vita en Italia,</p>
+          <p class="slider__txt">
+            moda, gastronomía y encanto un país que lo tiene               todo.</p>
+          <a href="Italia.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+    <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+  </div>
+
+
+
+  <main class="main">
+    <div class="container">
+      
+      <section class="container__testimonials" id="descubre">
+        <h2 class="section__title">Italia</h2>
+        <h3 class="testimonial__title">¿Listo para la aventura?</h3>
+        <p class="testimonial__txt">Italia, oficialmente la República Italiana, es un país situado en Europa del Sur. Es conocido por su rica historia, su deliciosa cocina y su patrimonio artístico. Italia
+   es el hogar de algunas de las ciudades más famosas del mundo, como Roma, Florencia y Venecia. Además, cuenta con una gran cantidad de paisajes hermosos, como los Alpes
+   italianos y las hermosas costas mediterráneas.</p>
+        
+        <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://static.vecteezy.com/system/resources/previews/000/639/844/original/flag-of-italy-vector.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>
+        <div class="editor__item">
+          <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-turismo-italia-turistas_1284-17195.jpg?w=2000" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>           
+      </div>
+        
+        <p class="testimonial__txt">Italia es conocida por su historia única y la cultura y arquitectura resultantes. En el país hay más de 100.000 monumentos históricos, muchos de los cuales se remontan a la época del antiguo Imperio Romano.
+</p>
+        
+        <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://humanidades.com/wp-content/uploads/2018/09/italia-venecia-e1579918757767.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>
+        <div class="editor__item">
+          <img src="https://www.viajaraitalia.com/wp-content/uploads/2011/05/Ciudad-de-Roma-760x500.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>           
+      </div>
+        
+        
+        <p class="testimonial__txt">Italia tiene una alta calidad de vida, con un sistema de salud bien desarrollado, una buena educación y una rica cultura. El estilo de vida en Italia se caracteriza por su enfoque en la familia, la comida y el disfrute de la vida. El costo de vida en Italia puede variar dependiendo de la ciudad y la región. Las principales ciudades como Roma y Milán pueden ser más caras en términos de alojamiento y comida, mientras que las áreas rurales tienden a ser más asequibles.
+</p>
+        
+        <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://caracoltv.brightspotcdn.com/dims4/default/da91cab/2147483647/strip/true/crop/594x401+0+0/resize/594x401!/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.amazonaws.com%2F22%2Fb5%2F2040be75487c9a392da5230bb726%2Fgettyimages-1233781982-594x594.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>
+        <div class="editor__item">
+          <img src="https://viesantore.com/wp-content/uploads/2020/12/Relacion-salud-y-calidad-de-vida.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>           
+      </div>
+        
+      </section>
+              
+      
+      
+      
+      
+      
+      <section class="container-tips" id="aventurate">
+      <div class="tip">
+        <i class="far fa-hand-paper"></i> 
+        <h2 class="tip__title">Avianca</h2>
+        <p class="tip__txt">Reconocida agencia de vuelos, cotiza precios y programa tu viaje</p>
+        <a href="https://www.avianca.com/es/?poscode=GT&gad=1&gclid=EAIaIQobChMItJzo24KQgAMV0qRaBR0Mxw5uEAAYASAAEgKBkvD_BwE" class="btn-shop">VUELA AHORA</a>
+      </div>
+      <div class="tip">
+       <i class="fas fa-rocket"></i>
+        <h2 class="tip__title">Google Maps</h2>
+        <p class="tip__txt">Busca aqui cada ricón del mundo.</p>
+        <a href="https://www.google.com/maps/place/Italy/@41.1781189,7.4264638,6z/data=!3m1!4b1!4m6!3m5!1s0x12d4fe82448dd203:0xe22cf55c24635e6f!8m2!3d41.87194!4d12.56738!16zL20vMDNyamo?entry=ttu" class="btn-shop">EXPLORA AHORA</a>
+      </div>
+      <div class="tip">
+        <i class="fas fa-cog"></i>
+        <h2 class="tip__title">Trivago</h2>
+        <p class="tip__txt">Cotiza y compara precios de miles de paginas de reservacion de hotel, reserva tu hospedaje al mejor precio.</p>
+        <a href="https://www.trivago.com/es-US?rl=es-US" class="btn-shop">HOSPEDAJE AHORA</a>
+      </div>
+    </section>
+    </div>
+  </main>
+
+
+  <footer class="main-footer" id="footer">
+    <div class="footer__section">
+      <h2 class="footer__title">About Us</h2>
+      <p class="footer__txt">Estudiante de Quinto Perito en Informatica</p>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Location :</h2>
+      <p class="footer__txt">6A Avenida 13-54, Cdad. New York 01007</p>
+      <h2 class="footer__title">Contact</h2>
+      <p class="footer__txt">Phone : 0000-0000</p>
+      <p class="footer__txt">Email : email@mail.com</p>
+    </div>
+    
+    <p class="copy">© 2023 Una Vuelta al Mundo</p>
   </footer>
+
+  <script src="../js/Index.js"></script>
 </body>
 </html>

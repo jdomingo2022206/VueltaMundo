@@ -1,52 +1,190 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vuelta al Mundo</title>
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/Index.css">
 </head>
 <body>
-  <header>
-    <h1>China</h1>
+  <header class="main-header">
+    <div class="container container--flex">
+      <div class="main-header__container">
+        <h1 class="main-header__title">Una Vuelta al Mundo</h1>
+        <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+        <nav class="main-nav" id="main-nav">
+          <ul class="menu">
+            <li class="menu__item"><a href="Index.html" class="menu__link">HOME</a></li>
+            <li class="menu__item"><a href="#explora" class="menu__link">EXPLORA</a></li>
+            <li class="menu__item"><a href="#descubre" class="menu__link">DESCUBRE</a></li>
+            <li class="menu__item"><a href="#aventurate" class="menu__link">AVENTURATE</a></li>
+            <li class="menu__item"><a href="#footer" class="menu__link">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-header__container">
+        <span class="main-header__txt">Kinal</span>
+        <p class="main-header__txt"><i class="fas fa-phone"></i> Telefono 0000-0000</p>
+      </div>
+      <div class="main-header__container">
+        <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+        <a href="Index.html" class="main-header__btn">Explora<i class="fas fa-shopping-cart"></i></a>
+        
+      </div>
+    </div>
   </header>
-  
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-    </ul>
-  </nav>
-  
-  <section>
-    <h2>Hablemos de China</h2>
-    <p>China, oficialmente la República Popular China, es un país ubicado en Asia Oriental. Es el país más poblado del mundo, con una población de más de 1.400 millones de personas.
-       China tiene una rica historia y una cultura fascinante. Es conocida por sus antiguos monumentos, como la Gran Muralla China y los Guerreros de Terracota, así como por su deliciosa
-       gastronomía, como el arroz frito y el pato pekín.</p>
-    <img src="https://c8.alamy.com/compes/2e8drwa/mapa-isometrico-turistico-de-china-con-coloridos-elementos-de-la-cultura-china-ilustracion-vectorial-de-fondo-marino-2e8drwa.jpg" alt="Imagen 1"  width="600" height="450">
-  </section>
-  
-  <section>
-    <h2>Lugares más visitados</h2>
-    <p>China cuenta con una gran variedad de destinos turísticos. Algunos de los lugares más visitados incluyen:</p>
-    <p>
-      - La Gran Muralla China: Un impresionante hito histórico que se extiende a lo largo de miles de kilómetros.<br>
-      - La Ciudad Prohibida: Un antiguo palacio imperial en el centro de Beijing.<br>
-      - Los Guerreros de Terracota: Un ejército de estatuas de terracota que representa a los soldados y caballos del primer emperador de China.<br>
-      - El Río Li: Un río pintoresco en Guilin, famoso por su paisaje de montañas kársticas.<br>
-      - La Torre Oriental de Shanghai: Un rascacielos icónico con una vista panorámica de la ciudad.<br>
-    </p>
-    <img src="https://img.freepik.com/vector-gratis/simbolo-china-composicion-plana-collage-flora-monje-budista-arquitectura-antigua-dragon-raquetas-ping-pong-ilustracion-vectorial_1284-80805.jpg?w=2000" alt="Imagen 2"  width="600" height="450">
-  </section>
 
-  <section>
-    <h2>Calidad de vida y costos</h2>
-    <p>Calidad de vida: China es un país con una mezcla de zonas urbanas desarrolladas y áreas rurales menos desarrolladas. Las principales ciudades como Shanghai y Beijing ofrecen una buena calidad de vida con infraestructuras modernas y servicios convenientes.</p>
-    <p>Costos: El costo de vida en China varía dependiendo de la ubicación y el estilo de vida. En general, las principales ciudades pueden ser más caras que las áreas rurales. El alojamiento, la comida y el transporte son algunos de los gastos principales a tener en cuenta.</p>
-    <img src="https://img.freepik.com/vector-premium/infografia-familiar-conjunto-iconos-familia-exitosa_250613-8.jpg?w=2000" alt="Imagen 3"  width="600" height="450">
-  </section>
-  
-  <footer>
-    <p>Jonathan Domingo 2022-206 IN5BV</p>
+  <div class="container-slider" id="explora">
+    <div class="slider" id="slider">
+      <div class="slider__section">
+        <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-turismo-francia-turistas_1284-17196.jpg?w=2000" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">
+            Francia</h2>
+          <p class="slider__txt">
+            Descubre la grandeza de Francia,</p>
+          <p class="slider__txt">
+            viaja a la cuna de la elegancia.</p>
+          <a href="Francia.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-espana-ilustracion_1284-8946.jpg?w=2000" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">España</h2>
+          <p class="slider__txt">
+            Siente la pasión española,</p>
+          <p class="slider__txt">
+            un viaje que despertara tus sentidos.</p>
+          <a href="Espana.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+    
+      <div class="slider__section">
+        <img src="https://static.vecteezy.com/system/resources/previews/000/484/292/original/usa-isometric-map-vector.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Estados Unidos</h2>
+          <p class="slider__txt">
+            Sumérgete en la aventura americana,</p>
+          <p class="slider__txt">
+            desde las luces de la ciudad hasta la naturaleza.</p>
+          <a href="Usa.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+
+      <div class="slider__section">
+        <img src="https://img.freepik.com/vector-gratis/mapa-isometrico-turismo-italia-turistas_1284-17195.jpg?w=2000" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Italia</h2>
+          <p class="slider__txt">
+            Vive la dolce vita en Italia,</p>
+          <p class="slider__txt">
+            moda, gastronomía y encanto un país que lo tiene               todo.</p>
+          <a href="Italia.html" class="btn-shop">Explorar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+    <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+  </div>
+
+
+
+  <main class="main">
+    <div class="container">
+      
+      <section class="container__testimonials" id="descubre">
+        <h2 class="section__title">China</h2>
+        <h3 class="testimonial__title">¿Listo para la aventura?</h3>
+        <p class="testimonial__txt">China, oficialmente la República Popular China, es un país ubicado en Asia Oriental. Es el segundo país más poblado del mundo, con una población que supera los 1.4 mil millones de habitantes. China abarca el equivalente a cinco zonas horarias y limita con catorce países por tierra, igualando a Rusia como el país con más fronteras terrestres en el mundo.</p>
+        
+        <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>
+        <div class="editor__item">
+          <img src="https://st2.depositphotos.com/2885805/12295/v/450/depositphotos_122951508-stock-illustration-china-touristic-isometric-map.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>           
+      </div>
+        
+        <p class="testimonial__txt">China es conocido en todo el mundo por ser un lugar donde se pueden encontrar grandes edificaciones de vanguardia y elaboradas con tecnología de punta. En los últimos años el gobierno se ha dedicado a apoyar el desarrollo de distintos recursos tecnológicos para incrementar la economía nacional.</p>
+        
+        <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://studyinchinas.com/ru/%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%B2-%D0%BA%D0%B8%D1%82%D0%B0%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%81%D1%82%D1%83%D0%B4%D0%B5/beauty1/" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>
+        <div class="editor__item">
+          <img src="https://studyinchinas.com/ru/%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%B2-%D0%BA%D0%B8%D1%82%D0%B0%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%81%D1%82%D1%83%D0%B4%D0%B5/beauty2/" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>           
+      </div>
+        
+        
+        <p class="testimonial__txt">La vida en China actual ha mejorado mucho, hay personas ricas que deciden satisfacer su vida con un viaje al exterior, con destinos a los países europeos o sudeste de Asia. Pero, de hecho, aun se mantiene la presión, la mayoría de la gente trabaja duro para poder sobrevivir.
+</p>
+        
+        <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/75C8/production/_99925103_gettyimages-76964465.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>
+        <div class="editor__item">
+          <img src="https://viesantore.com/wp-content/uploads/2020/12/Relacion-salud-y-calidad-de-vida.jpg" alt="" class="editor__img">
+          <p class="editor__circle">EXPLORA</p>
+        </div>           
+      </div>
+        
+      </section>
+              
+      
+      
+      
+      
+      
+      <section class="container-tips" id="aventurate">
+      <div class="tip">
+        <i class="far fa-hand-paper"></i> 
+        <h2 class="tip__title">Avianca</h2>
+        <p class="tip__txt">Reconocida agencia de vuelos, cotiza precios y programa tu viaje</p>
+        <a href="https://www.avianca.com/es/?poscode=GT&gad=1&gclid=EAIaIQobChMItJzo24KQgAMV0qRaBR0Mxw5uEAAYASAAEgKBkvD_BwE" class="btn-shop">VUELA AHORA</a>
+      </div>
+      <div class="tip">
+       <i class="fas fa-rocket"></i>
+        <h2 class="tip__title">Google Maps</h2>
+        <p class="tip__txt">Busca aqui cada ricón del mundo.</p>
+        <a href="https://www.google.com/maps/place/China/@35.780287,104.1374349,4z/data=!3m1!4b1!4m6!3m5!1s0x31508e64e5c642c1:0x951daa7c349f366f!8m2!3d35.86166!4d104.195397!16zL20vMGQwNXcz?entry=ttu" class="btn-shop">EXPLORA AHORA</a>
+      </div>
+      <div class="tip">
+        <i class="fas fa-cog"></i>
+        <h2 class="tip__title">Trivago</h2>
+        <p class="tip__txt">Cotiza y compara precios de miles de paginas de reservacion de hotel, reserva tu hospedaje al mejor precio.</p>
+        <a href="https://www.trivago.com/es-US?rl=es-US" class="btn-shop">HOSPEDAJE AHORA</a>
+      </div>
+    </section>
+    </div>
+  </main>
+
+
+  <footer class="main-footer" id="footer">
+    <div class="footer__section">
+      <h2 class="footer__title">About Us</h2>
+      <p class="footer__txt">Estudiante de Quinto Perito en Informatica</p>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Location :</h2>
+      <p class="footer__txt">6A Avenida 13-54, Cdad. New York 01007</p>
+      <h2 class="footer__title">Contact</h2>
+      <p class="footer__txt">Phone : 0000-0000</p>
+      <p class="footer__txt">Email : email@mail.com</p>
+    </div>
+    
+    <p class="copy">© 2023 Una Vuelta al Mundo</p>
   </footer>
+
+  <script src="../js/Index.js"></script>
 </body>
 </html>
